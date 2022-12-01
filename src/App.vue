@@ -1,7 +1,12 @@
 <script>
+  import AppTitle from "./components/AppTitle.vue";
   export default{
-    data(){
+    components: { AppTitle },
 
+    data(){
+      return{
+        
+      }
     },
 
     methods: {
@@ -11,7 +16,13 @@
 </script>
 
 <template>
-  <h1>ciao</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <AppTitle></AppTitle>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style scoped>
