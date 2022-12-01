@@ -23,7 +23,7 @@
 
 <style scoped>
     h1{
-        background-color: bisque;
         padding: 1rem;
+        text-align: center;
     }
 </style>

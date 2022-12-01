@@ -17,11 +17,14 @@
 </script>
 
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <AppTitle></AppTitle>
+  <div class="main_container">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 m-auto">
+          <AppTitle></AppTitle>
+        </div>
       </div>
+      <AppHero></AppHero>
     </div>
   </div>
 </template>
@@ -37,5 +40,9 @@
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+
+.main_container{
+  width: 90vw;
 }
 </style>

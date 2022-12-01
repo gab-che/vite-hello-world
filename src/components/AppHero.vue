@@ -2,7 +2,7 @@
     export default{
         data(){
             return{
-                
+                jumboTitle: "Jumbo Title",
             }
         },
 
@@ -13,6 +13,9 @@
 </script>
 
 <template>
+    <div class="jumbotron">
+        <img src="../assets/jumbo.png" alt="" class="img-fluid">
+    </div>
 </template>
 
 <style scoped>
